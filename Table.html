@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-1.12.4.js"></script>
+  <script src="jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#DepartureDate" ).datepicker();
+	 $( "#ReturnDate" ).datepicker();
+  } );
+  </script>
+<style>
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.FrontColor {
+	color: #808080;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<table width="1273" cellpadding="0" cellspacing="0">
+<tr>
+  <td width="174" height="165"><img src="300px-AirAsia_New_Logo.svg.png" width="150" height="150" align="left"  /></td>
+  <td colspan="5"><h1><strong>Depart Bangkok - Don Mueang to <?php $GET["Departure"];?></strong></h1></td></tr>
+<tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td height="31">&nbsp;</td>
+  <td><div align="center">Low Fare</div></td>
+  <td><div align="center">Economy</div></td>
+  <td><div align="center">PreMium Flatbed</div></td>
+</tr>
+<tr>
+  <td>&nbsp;</td>
+  <td width="70"><div align="center">09:35</div></td>
+  <td width="76" height="31"><div align="center">11:55</div></td>
+  <td width="313"><div align="center">12,000</div></td>
+  <td width="313"><div align="center">16,000</div></td>
+  <td width="313"><div align="center">25,000<br>
+  </div></td></tr>
+<tr>
+  <td>&nbsp;</td>
+  <td><div align="center">13:00</div></td>
+  <td height="31"><div align="center">19:50</div></td>
+  <td><div align="center">13,999</div></td>
+  <td><div align="center">18,000</div></td>
+  <td><div align="center">26,000<br>
+  </div></td></tr>
+<tr>
+  <td>&nbsp;</td>
+  <td><div align="center">20:00</div></td>
+  <td height="31"><div align="center">22:00</div></td>
+  <td><div align="center">12,000</div></td>
+  <td><div align="center">20,000</div></td>
+  <td><div align="center">27,000</div></td></tr>
+<tr>
+  <td>&nbsp;</td>
+  <td><div align="center">22:00</div></td>
+  <td height="31"><div align="center">01:00</div></td>
+  <td><div align="center">12,000</div></td>
+  <td><div align="center">22,000</div></td>
+  <td><div align="center">26,000</div></td></tr>
+
+</table>
+
+</body>
+</html>
